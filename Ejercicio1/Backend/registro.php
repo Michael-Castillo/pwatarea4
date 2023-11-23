@@ -16,9 +16,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($conn->query($sql) === TRUE) {
         // Redirigir al usuario a otra página según su rol
         if ($rol === 'administrador') {
-            header("Location: ../frontend/pagina_administrador.php");
+            header("Location: ../Frontend/pagina_administrador.php");
         } else {
-            header("Location: ../frontend/pagina_usuario_estandar.php");
+            header("Location: ../Frontend/pagina_usuario_estandar.php");
         }
         exit; // Salir del script después de redirigir al usuario
     } else {
@@ -32,9 +32,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
             // Redirigir al usuario a otra página según su rol
             if ($rol === 'administrador') {
-                header("Location: ../frontend/pagina_administrador.php");
+                header("Location: ../Frontend/pagina_administrador.php");
             } else {
-                header("Location: ../frontend/pagina_usuario_estandar.php");
+                header("Location: ../Frontend/pagina_usuario_estandar.php");
             }
             exit; // Salir del script después de redirigir al usuario
         } else {
