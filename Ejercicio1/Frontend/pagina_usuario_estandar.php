@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Página del Administrador</title>
-    <link rel="stylesheet" type="text/css" href="../frontend/Estilos/usuarios.css">
+    <link rel="stylesheet" type="text/css" href="Estilos/usuarios.css">
 </head>
 <body>
     <h1>Bienvenido Usuario</h1>
